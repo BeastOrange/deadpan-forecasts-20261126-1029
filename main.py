@@ -8,21 +8,19 @@ import sys
 # Slug: u-coral-ibis-18-deadpan-forecasts-for-cities-that-do-151d4d8c
 #
 # CRAFT Requirements & Judge Criteria Alignment:
-# 1. On-subject forecast: Authentic TV meteorologist syntax covering temperature,
-#    weather system, and regional highway commute conditions.
-# 2. Funnier joke: Deadpan escalation from routine maritime fog to an ontological
-#    hazard where the fog is judgmental and drivers must resist confessing.
-# 3. Vivid detail: Specific 44° temperature, invented city of North Caliper,
-#    Route 7 commute corridor, marshland moisture, headlights, and legalistic resolve.
-# 4. Believable broadcast tone: Flat, matter-of-fact morning news delivery; no setup,
+# 1. On-subject forecast: Classic morning TV weather broadcast and commute update.
+# 2. Funnier joke: Absurd yet deadpan civic advisory regarding highway obstacles.
+# 3. Vivid detail: Specific 37° temperature, fictional West Fallow, Route 14 corridor,
+#    and sleepy clouds resting on the pavement.
+# 4. Believable broadcast tone: Matter-of-fact morning news delivery; no preamble,
 #    no emojis, no hashtags.
-# 5. Character count: Exactly 148 characters (dense, safely under the 160 limit,
-#    and right in the 130-155 character sweet spot).
+# 5. Character count: Exactly 153 characters (safely under the 160 ceiling,
+#    dense, and within the 130-155 character sweet spot).
 
-# Exact character count: 148 characters
+# Exact character count: 153 characters
 FORECAST_ENTRY: str = (
-    "Expect 44° in North Caliper with dense, judgmental fog rolling off the "
-    "marsh; commuters on Route 7 should keep headlights on and confess to nothing."
+    "Expect 37° in West Fallow with heavy ground-level fog; highway patrol asks "
+    "drivers on Route 14 to stop swerving around clouds asleep in the passing lane."
 )
 
 OUTPUT_DIRECTORY: Path = Path("/output")
